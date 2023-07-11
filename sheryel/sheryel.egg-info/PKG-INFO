@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sheryel
+Version: 0.0.1
+Summary: A way too complicated command line interface (CLI) for printing sheryel words.
+Home-page: https://github.com/peaceknight05/sheryel
+Author: Shou Haruka
+Author-email: jonathantanatlol@gmail.com
+License: FreeBSD
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: FreeBSD License
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+
+Sheryel
+--------
+
+A way too complicated command line interface (CLI) for printing sheryel words.

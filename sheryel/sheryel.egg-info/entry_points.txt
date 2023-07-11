@@ -1,0 +1,2 @@
+[console_scripts]
+sheryel = sheryel.command_line:main

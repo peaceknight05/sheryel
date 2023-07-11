@@ -18,9 +18,11 @@ setup(
     author='Shou Haruka',
     author_email='jonathantanatlol@gmail.com',
     license='FreeBSD',
-    packages='sheryel',
+    packages=["sheryel", "sheryel.output", "sheryel.utils"],
+    package_data={"words": ["*.txt"]},
     zip_safe=False,
     entry_points={
-        'console_scripts': ['sheryel=sheryel.command_line:main']
-	}
+        'console_scripts': ['sheryel=sheryel.cli.output:cli']
+	},
+    include_package_data=True
 )
